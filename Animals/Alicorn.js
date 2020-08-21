@@ -7,12 +7,12 @@ class Alicorn extends Animal {
     }
 
     getAnimal() {
-        return "Alicorn"
+        return "Alicorn";
     }
 
     getInnatePower() {
         this.strength += 50;
-        return "Increases Strength By 50"
+        return "Increases Strength By 50";
     }
 }
 

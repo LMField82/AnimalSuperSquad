@@ -7,13 +7,13 @@ class Dragon extends Animal {
     }
 
     getAnimal() {
-        return "Dragon"
+        return "Dragon";
     }
 
     getInnatePower() {
         this.strength += 30;
         this.intelligence += 25;
-        return "Increases Strength By 30, Intelligence by 25"
+        return "Increases Strength By 30, Intelligence By 25 🐉"; 
     }
 }
 

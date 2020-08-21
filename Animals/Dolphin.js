@@ -12,7 +12,7 @@ class Dolphin extends Animal {
 
     getInnatePower() {
         this.intelligence += 50;
-        return "Increases Intelligence By 50";
+        return "Increases Intelligence By 50 🐬";  
     }
 }
 

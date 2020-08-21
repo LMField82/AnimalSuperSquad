@@ -14,7 +14,7 @@ class Elephant extends Animal {
         this.strength += 50;
         this.intelligence += 50;
         this.heart += 50;
-        return "Increases Strength, Intelligence, & Heart By 50"
+        return "Increases Strength, Intelligence, & Heart By 50 🐘" 
     }
 }
 
