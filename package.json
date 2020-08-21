@@ -1,0 +1,24 @@
+{
+  "name": "animalsupersquad",
+  "version": "1.0.0",
+  "description": "A Node application run in the command line that allows the user to create a squad of super-powered animals",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LMField82/AnimalSuperSquad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LMField82/AnimalSuperSquad/issues"
+  },
+  "homepage": "https://github.com/LMField82/AnimalSuperSquad#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
+}
