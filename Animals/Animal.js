@@ -51,9 +51,9 @@ class Animal {
             return console.log("Superpower is Healing Power");
         }
         if (this.superpower === "Invisibility") {
-            this.strength === 75;
-            this.intelligence === 75;
-            this.heart === 75;
+            this.strength === 60;
+            this.intelligence === 60;
+            this.heart === 60;
             return console.log("Superpower is Invisibility");
         }
         if (this.superpower === "Ability To Fly") {
