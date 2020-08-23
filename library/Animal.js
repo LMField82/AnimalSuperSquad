@@ -2,7 +2,8 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 class Animal {
-    constructor(name, superpower, strength, intelligence, heart) {
+    constructor(type, name, superpower, strength, intelligence, heart) {
+        this.type = type;
         this.name = name;
         this.superpower = superpower;
         this.strength = strength;
@@ -29,6 +30,45 @@ class Animal {
 
     getHeart() {
         return this.heart;
+    }
+
+    getAnimal() {
+        if (this.type === "Alicorn") {
+            return console.log(`This animal is a(n) ${this.type}`);
+        }
+        if (this.type === "Dolphin") {
+            return console.log(`This animal is a(n) ${this.type}`);
+        }
+        if (this.type === "Dragon") {
+            return console.log(`This animal is a(n) ${this.type}`);
+        }
+        if (this.type === "Elephant") {
+            return console.log(`This animal is a(n) ${this.type}`);
+        }
+        if (this.type === "Hawk") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Monkey") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Orangutan") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Rat") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Sloth") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Snake") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "Squirrel") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
+        if (this.type === "WereWolf") {
+            return console.log(`This animal is a(n) ${this.type}`)
+        }
     }
 
     getSuperpower() {

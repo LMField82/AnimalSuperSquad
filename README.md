@@ -1,5 +1,5 @@
 # AnimalSuperSquad
-A Node application run in the command line that allows the user to create a squad of super-powered animals
+A Node application run in the command line that allows the user to create a squad of super-powered animals.
 
 ## How It Works
 Create a squad of 3 super-powered animals from the following list:
@@ -24,5 +24,6 @@ Each animal has a:
         -intelligence points 
         -heart points
 
+### Future Plans
 Compete in a battle against a randomly created animal squad to see which Animal Super Squad is dominant. 
 

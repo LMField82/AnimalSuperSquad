@@ -1,18 +1,20 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const Alicorn = require('./Animals/Alicorn');
-const Dolphin = require('./Animals/Dolphin');
-const Dragon = require('./Animals/Dragon');
-const Elephant = require('./Animals/Elephant');
-const Hawk = require('./Animals/Hawk');
-const Monkey = require('./Animals/Monkey');
-const Orangutan = require('./Animals/Orangutan');
-const Rat = require('./Animals/Rat');
-const Sloth = require('./Animals/Sloth');
-const Snake = require('./Animals/Snake');
-const Squirrel = require('./Animals/Squirrel');
-const WereWolf = require('./Animals/WereWolf');
+const Alicorn = require('./library/Alicorn');
+const Dolphin = require('./library/Dolphin');
+const Dragon = require('./library/Dragon');
+const Elephant = require('./library/Elephant');
+const Hawk = require('./library/Hawk');
+const Monkey = require('./library/Monkey');
+const Orangutan = require('./library/Orangutan');
+const Rat = require('./library/Rat');
+const Sloth = require('./library/Sloth');
+const Snake = require('./library/Snake');
+const Squirrel = require('./library/Squirrel');
+const WereWolf = require('./library/WereWolf');
 const path = require('path');
+
+const outputPath = path.resolve(__dirname, "output", "squad.html");
 
 const animalSquad = [];
 const superpowersArr = [
@@ -244,7 +246,7 @@ buildSquadMenu = () => {
                 name: "superpower"
             }
         ]).then(userChoice => {
-            const organutan = new Organutan (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+            const organutan = new Orangutan (userChoice.name, userChoice.superpower, strength, intelligence, heart)
             animalSquad.push(organutan);
 
             createSquad();
@@ -354,6 +356,11 @@ buildSquadMenu = () => {
 
             createSquad();
         });
+
+        buildSquad = () => {
+            fs.writeFileSync(outputPath, htmlRender(animalSquad), "utf8")
+        }
+
     }
 
 }
