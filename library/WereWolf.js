@@ -1,8 +1,8 @@
 const Animal = require("./Animal");
 
 class WereWolf extends Animal {
-    constructor(name, superpower, strength, innatepower) {
-        super(name, superpower, strength);
+    constructor(type, name, superpower, strength, innatepower) {
+        super(type, name, superpower, strength);
         this.innatepower = innatepower;
     }
 

@@ -1,8 +1,8 @@
 const Animal = require("./Animal");
 
 class Sloth extends Animal {
-    constructor(name, superpower, heart, innatepower) {
-        super(name, superpower, heart);
+    constructor(type, name, superpower, heart, innatepower) {
+        super(type, name, superpower, heart);
         this.innatepower = innatepower;
     }
 
