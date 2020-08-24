@@ -4,10 +4,7 @@ class Hawk extends Animal {
     constructor(type, name, superpower, intelligence, innatepower) {
         super(type, name, superpower, intelligence);
         this.innatepower = innatepower;
-    }
-
-    getAnimal() {
-        return "Hawk";
+        this.type = "Hawk";
     }
 
     getInnatePower() {

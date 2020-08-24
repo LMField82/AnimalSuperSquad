@@ -4,10 +4,7 @@ class Dragon extends Animal {
     constructor(type, name, superpower, strength, intelligence, innatepower) {
         super(type, name, superpower, strength, intelligence);
         this.innatepower = innatepower;
-    }
-
-    getAnimal() {
-        return "Dragon";
+        this.type = "Dragon";
     }
 
     getInnatePower() {

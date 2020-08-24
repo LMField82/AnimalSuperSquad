@@ -4,10 +4,7 @@ class Squirrel extends Animal {
     constructor(type, name, superpower, intelligence, heart, innatepower) {
         super(type, name, superpower, intelligence, heart);
         this.innatepower = innatepower;
-    }
-
-    getAnimal() {
-        return "Squirrel";
+        this.type = "Squirrel";
     }
 
     getInnatePower() {

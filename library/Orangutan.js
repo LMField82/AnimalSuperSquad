@@ -4,10 +4,7 @@ class Orangutan extends Animal {
     constructor(type, name, superpower, intelligence, heart, innatepower) {
         super(type, name, superpower, intelligence, heart);
         this.innatepower = innatepower;
-    }
-
-    getAnimal() {
-        return "Orangutan";
+        this.type = "Orangutan";
     }
 
     getInnatePower() {
