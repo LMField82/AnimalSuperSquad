@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const htmlRender = require('./library/htmlRender');
 const Alicorn = require('./library/Alicorn');
 const Dolphin = require('./library/Dolphin');
 const Dragon = require('./library/Dragon');
