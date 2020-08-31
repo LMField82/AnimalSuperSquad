@@ -110,9 +110,9 @@ buildSquadMenu = () => {
     }
 
     const addHawk = (userChoice) => {
-            const hawk = new Hawk (userChoice.name, userChoice.superpower, strength, intelligence, heart)
-            animalSquad.push(hawk);
-            createSquad();
+        const hawk = new Hawk (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+        animalSquad.push(hawk);
+        createSquad();
     }
 
     const addMonkey = (userChoice) => {
@@ -134,27 +134,27 @@ buildSquadMenu = () => {
     }
 
     const addSloth = (userChoice) => {
-            const sloth = new Sloth (userChoice.name, userChoice.superpower, strength, intelligence, heart)
-            animalSquad.push(sloth);
-            createSquad();
+        const sloth = new Sloth (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+        animalSquad.push(sloth);
+        createSquad();
     }
 
     const addSnake = (userChoice) => {
-            const snake = new Snake (userChoice.name, userChoice.superpower, strength, intelligence, heart)
-            animalSquad.push(snake);
-            createSquad();
+        const snake = new Snake (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+        animalSquad.push(snake);
+        createSquad();
     }
 
     const addSquirrel = (userChoice) => {
-            const squirrel = new Squirrel (userChoice.name, userChoice.superpower, strength, intelligence, heart)
-            animalSquad.push(squirrel);
-            createSquad();
+        const squirrel = new Squirrel (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+        animalSquad.push(squirrel);
+        createSquad();
     }
 
     const addWereWolf = (userChoice) => {
-            const werewolf = new WereWolf (userChoice.name, userChoice.superpower, strength, intelligence, heart)
-            animalSquad.push(werewolf);
-            createSquad();
+        const werewolf = new WereWolf (userChoice.name, userChoice.superpower, strength, intelligence, heart)
+        animalSquad.push(werewolf);
+        createSquad();
     }
 
     buildSquad = () => {

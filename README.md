@@ -27,3 +27,42 @@ Each animal has a:
 ### Future Plans
 Compete in a battle against a randomly created animal squad to see which Animal Super Squad is dominant. 
 
+
+
+const superpowersArr = [
+    {
+        "Mind Reading": {
+            strength: 55,
+            intelligence: 100,
+            heart: 20
+        }
+    },
+    {
+        "Super Speed": {
+            strength: 100,
+            intelligence: 55,
+            heart: 50
+        }
+    },
+    {
+        "Healing Power": {
+            strength: 45,
+            intelligence: 75,
+            heart: 100
+        }
+    },
+    {
+        "Invisibility": {
+            strength: 60,
+            intelligence: 60,
+            heart: 20
+        }
+    },
+    {
+        "Ability To Fly": {
+            strength: 100,
+            intelligence: 65,
+            heart: 70
+        }
+    }
+];
